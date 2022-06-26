@@ -1,0 +1,54 @@
+@media(max-width: 600px){
+  body {
+    /* width: 100vh; */
+    /* display: flex; */
+    background-color: #111111;
+      display: grid;
+  }
+
+  main {
+    max-width: 97%;
+  }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .cards-todo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: auto;
+  }
+  .card-todo{
+    width: 100%;
+    display: flex;
+  }
+    .section-form {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  .section-form{
+    display: flex;
+  }
+  .card-done{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section-add {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .table{
+    width: 300px;
+  }
+}
